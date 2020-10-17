@@ -1,12 +1,14 @@
-var path = require('path');
+const path = require('path');
+const pkg = require("./package.json");
+const webpack = require('webpack')
 
 module.exports = {
     mode: 'production',
     entry: './src/index.js',
     output: {
-        path: path.resolve(__dirname),
+        path: path.resolve(__dirname,"dist"),
         filename: 'index.js',
-        libraryTarget: 'commonjs2'
+        libraryTarget: 'commonjs'
     },
     module: {
         rules: [
@@ -19,5 +21,10 @@ module.exports = {
             }
         ]
     },
-    externals: ["react", "react-dom", "prop-types"]
+    externals: Object.keys(pkg.dependencies).concat(Object.keys(pkg.peerDependencies)),
+    plugins: [
+        new webpack.DefinePlugin({
+            VERSION: JSON.stringify(pkg.version)
+        })
+    ]
 }
