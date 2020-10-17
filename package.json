@@ -1,6 +1,6 @@
 {
   "name": "@megamind2301/ui_kit_react_web",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "UI KIT FOR REACT-JS APPLICATION",
   "homepage": "https://github.com/megamind2301/ui_kit_react_web",
   "publishConfig": {
@@ -28,7 +28,6 @@
     "react-dom": "^16.13.1",
     "prop-types": "^15.7.2"
   },
-  "main": "index.js",
   "dependencies": {},
   "repository": {
     "type": "git",
