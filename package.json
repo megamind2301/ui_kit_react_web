@@ -1,6 +1,6 @@
 {
   "name": "@megamind2301/ui_kit_react_web",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "UI KIT FOR REACT-JS APPLICATION",
   "homepage": "https://github.com/megamind2301/ui_kit_react_web",
   "publishConfig": {
@@ -8,9 +8,10 @@
   },
   "scripts": {
     "prepare": "webpack",
-    "build":"webpack"
+    "build": "webpack"
   },
-  "files":[
+  "main":"dist/index.js",
+  "files": [
     "dist/**/*.js",
     "src/**/*.js",
     "*.js",
@@ -21,7 +22,7 @@
     "react-dom": "^16.13.1",
     "prop-types": "^15.7.2"
   },
-  "peerDependencies" : {},
+  "peerDependencies": {},
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",

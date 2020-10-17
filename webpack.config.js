@@ -4,10 +4,12 @@ const webpack = require('webpack')
 
 module.exports = {
     mode: 'production',
-    entry: './src/index.js',
+    entry: {
+        "index": './src/index.js'
+    },
     output: {
         path: path.resolve(__dirname,"dist"),
-        filename: 'index.js',
+        filename: '[name].js',
         libraryTarget: 'commonjs2'
     },
     module: {
@@ -26,5 +28,8 @@ module.exports = {
         new webpack.DefinePlugin({
             VERSION: JSON.stringify(pkg.version)
         })
-    ]
+    ],
+    optimization: {
+        minimize: false
+    }
 }
