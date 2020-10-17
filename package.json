@@ -1,6 +1,6 @@
 {
   "name": "@megamind2301/ui_kit_react_web",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "UI KIT FOR REACT-JS APPLICATION",
   "homepage": "https://github.com/megamind2301/ui_kit_react_web",
   "publishConfig": {
@@ -10,6 +10,9 @@
     "prepare": "webpack",
     "build":"webpack"
   },
+  "files":[
+    "dist/index.js"
+  ],
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
