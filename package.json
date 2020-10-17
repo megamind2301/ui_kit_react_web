@@ -1,11 +1,11 @@
 {
-    "name": "@megamind/ui_kit_react_web",
+    "name": "@megamind2301/ui_kit_react_web",
     "version": "0.0.1",
     "description": "UI KIT FOR REACT-JS APPLICATION",
-    "private": true,
-    "homepage": "https://github.com/Megamind2301/ui_kit_react_web",
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com/"
+    "homepage": "https://github.com/megamind2301/ui_kit_react_web",
+    "publishConfig": { 
+        "access": "restricted",
+        "registry": "https://npm.pkg.github.com/" 
     },
     "scripts": {
         "build": "webpack"
