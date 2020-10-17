@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: 12
       - run: npm i
-      - run: npm prepare
+      - run: npm run prepare
 
   publish-gpr:
     needs: build
