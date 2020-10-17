@@ -11,7 +11,10 @@
     "build":"webpack"
   },
   "files":[
-    "dist/index.js"
+    "dist/**/*.js",
+    "src/**/*.js",
+    "*.js",
+    "*.babelrc"
   ],
   "dependencies": {
     "react": "^16.13.1",
