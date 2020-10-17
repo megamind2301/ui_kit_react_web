@@ -1,32 +1,42 @@
 {
-    "name": "@megamind2301/ui_kit_react_web",
-    "version": "0.0.1",
-    "description": "UI KIT FOR REACT-JS APPLICATION",
-    "homepage": "https://github.com/megamind2301/ui_kit_react_web",
-    "publishConfig": { 
-        "access": "restricted",
-        "registry": "https://npm.pkg.github.com/" 
-    },
-    "scripts": {
-        "build": "webpack"
-    },
-    "peerDependencies": {
-        "react": "^16.13.1",
-        "react-dom": "^16.13.1",
-        "prop-types": "^15.7.2"
-    },
-    "devDependencies": {
-        "@babel/core": "^7.9.0",
-        "@babel/preset-env": "^7.9.5",
-        "@babel/preset-react": "^7.9.4",
-        "@babel/runtime": "^7.9.2",
-        "babel-loader": "^8.1.0",
-        "babel-preset-stage-0": "^6.24.1",
-        "path": "^0.12.7",
-        "webpack": "^4.44.2",
-        "webpack-cli": "^3.3.12",
-        "react": "^16.13.1",
-        "react-dom": "^16.13.1",
-        "prop-types": "^15.7.2"
-    }
+  "name": "@megamind2301/ui_kit_react_web",
+  "version": "0.0.1",
+  "description": "UI KIT FOR REACT-JS APPLICATION",
+  "homepage": "https://github.com/megamind2301/ui_kit_react_web",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/runtime": "^7.9.2",
+    "babel-loader": "^8.1.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "path": "^0.12.7",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "prop-types": "^15.7.2"
+  },
+  "main": "index.js",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megamind2301/ui_kit_react_web.git"
+  },
+  "author": "megamind2301",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/megamind2301/ui_kit_react_web/issues"
+  }
 }
